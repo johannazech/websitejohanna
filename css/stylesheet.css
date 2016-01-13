@@ -1,0 +1,44 @@
+body{
+  font-family: "Helvetica";
+  font-weight:lighter;
+  margin:0;
+  padding:0;
+}
+
+
+.sidebar{
+  width:250px;
+  background:red;
+  min-height: 100%;
+  float: left;
+  padding:20px;
+  margin:20px;
+}
+
+
+.row{
+  background: blue;
+  width:400px;
+  height: 200px;
+  float:left;
+  margin-bottom: 20px;
+}
+
+/*#bild2,#bild3{
+  background: yellow;
+  height:50px;
+  width:calc(50%-5px);*/
+}
+
+#bild2{
+  margin-right: 5px;
+  background:yellow;
+  width:185px;
+  float:left;
+}
+#bild3{
+  background:green;
+  width:185px;
+  float:left;
+
+}
