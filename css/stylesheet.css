@@ -4,11 +4,21 @@ body{
   margin:0;
   padding:0;
 }
+/* links */
+
+a:link,a:active,a:visited {  text-decoration: none;  color : #000000; }
+a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
+
+
+.hochformat{
+  float:left;
+  height:10px
+}
 
 
 .sidebar{
   width:250px;
-  background:red;
+  background:#99CCCC;
   min-height: 100%;
   float: left;
   padding:20px;
