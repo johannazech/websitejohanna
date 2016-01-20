@@ -10,45 +10,67 @@ a:link,a:active,a:visited {  text-decoration: none;  color : #000000; }
 a:hover { font-weight: bold;  text-decoration: none; color : #000000; }
 
 
-.hochformat{
-  float:left;
-  height:10px
+img{
+  width:200px;
+  height:auto;
+}
+h1{
+  font-size: 12px;
+  display:inline;
+  float:right;
+}
+.logo{
+  position:fixed;
+  right:20px;
+  top:0px;
+  width:170px;
+
+}
+nav{
+  position:fixed;
+  top:0px;
+  left: 20px;
+}
+nav ul li {
+  display: inline;
+  list-type-style: none;
+  padding:5px;
 }
 
-
-.sidebar{
-  width:250px;
-  background:#99CCCC;
-  min-height: 100%;
-  float: left;
-  padding:20px;
-  margin:20px;
+#menu{
+  font-size:10px;
 }
 
+.images_text{
+  postion: inherit;
 
+}
+.row img:hover{
+  opacity: 0.4;
+  transition-timing-function: 2s;
+}
+.nav a:hover{
+  color: grey;
+  transition-timing-function: 0,5s;
+}
 .row{
-  background: blue;
-  width:400px;
-  height: 200px;
+  width:600px;
+  height: auto;
   float:left;
   margin-bottom: 20px;
+  margin-top:20px;
 }
 
-/*#bild2,#bild3{
-  background: yellow;
-  height:50px;
-  width:calc(50%-5px);*/
-}
 
-#bild2{
-  margin-right: 5px;
-  background:yellow;
-  width:185px;
+.hochformat{
   float:left;
+  width:100px;
+  height:auto;
+  margin-right:130px;
 }
-#bild3{
-  background:green;
-  width:185px;
-  float:left;
 
+.querformat{
+  float:left;
+  width:200px;
+  height:auto;
 }
