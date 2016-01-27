@@ -21,19 +21,19 @@ h1{
   display:inline;
   float:right;
   font-weight:lighter;
+  display:inline-block;
 }
 .logo{
   position:fixed;
-  right:20px;
+  left:20px;
   top:2px;
-  width:170px;
   display:inline;
   padding:5px;
 }
 nav{
   position:fixed;
   top:2px;
-  left:0px;
+  right:20px;
 }
 nav ul li {
   display: inline;
@@ -44,30 +44,10 @@ nav ul li {
 #menu{
   font-size:14px;
 }
-
-.groesser {
-  background: url(../images/7mädchen2.JPG) no-repeat center center;
-  background-size: cover;
-  width: 100%;
-  height: 500px;
-}
 .row {
   margin-top: 150px;
   width: 100%;
   text-align: center;
-}
-.column{
-  height: 100%;
-  width:50%;
-  margin-left:350px;
-}
-.bild60%{
-  width:60%;
-  float:left;
-}
-#bild1{
-  width:40%;
-  float:right;
 }
 
 
@@ -92,11 +72,6 @@ nav ul li {
   margin-right: 5px;
 }
 
-.querformat{
-  float:left;
-  width:200px;
-  height:auto;
-}
 #aboutpicture{
   width:300px;
 }
@@ -105,4 +80,131 @@ nav ul li {
   width:200px;
   text-align: left;
   font-size:13px;
+}
+
+.column{
+  margin-top:20px;
+  height:100%;
+  width:700px;
+  margin-left:200px;
+  background-color: pink;
+}
+
+#bild1 {
+  background: url(../images/5party2.JPG) no-repeat center center;
+  background-size: cover;
+  width:400px;
+  height:600px;
+}
+#bild2 {
+  background: url(../images/seemann2.JPG) no-repeat center center;
+  background-size: cover;
+  width:300px;
+  height:300px;
+  float:left;
+}
+#bild3 {
+  background: url(../images/9healthy1.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:300px;
+}
+#bild4 {
+  background: url(../images/11holiday2.JPG) no-repeat center center;
+  background-size: cover;
+  width:400px;
+  height:300px;
+  float:left;
+}
+#bild5 {
+  background: url(../images/araber.JPG) no-repeat center center;
+  background-size: cover;
+  width:300px;
+  height:300px;
+  float:left;
+}
+#bild6 {
+  background: url(../images/7maedchen2.JPG) no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height:300px;
+}
+#bild7 {
+  background: url(../images/aquarell.JPG) no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height:600px;
+}
+.margin-unten{
+  padding-bottom: 2px;
+}
+.reihe{
+  width:700px;
+  height:600px;
+  float:left;
+}
+.reiheklein{
+  width:700px;
+  height:300px;
+  float:left;
+}
+.quadrate{
+  height:600px;
+  width:300px;
+  float:left;
+}
+.sketchbild{
+  width:350px;
+  height:auto;
+  float:left;
+}
+
+#sketch2{
+  background: url(../images/sketch2.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:300px;
+}
+
+#sketch3{
+  background: url(../images/sketch3.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:250px;
+}
+#sketch4{
+  background: url(../images/sketch4.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:250px;
+}
+#sketch5{
+  background: url(../images/sketch5.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:250px;
+}
+#sketch6{
+  background: url(../images/sketch6.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:250px;
+}
+#sketch7{
+  background: url(../images/sketch7.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:250px;
+}
+#sketch8{
+  background: url(../images/sketch8.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:250px;
+}
+#sketch10{
+  background: url(../images/sketch10.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:250px;
 }

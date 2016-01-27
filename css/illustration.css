@@ -1,0 +1,67 @@
+.column{
+  height:100%;
+  width:700px;
+  margin-left:200px;
+  background-color: pink;
+}
+
+#bild1 {
+  background: url(../images/5party2.JPG) no-repeat center center;
+  background-size: cover;
+  width:400px;
+  height:600px;
+}
+#bild2 {
+  background: url(../images/seemann2.JPG) no-repeat center center;
+  background-size: cover;
+  width:300px;
+  height:300px;
+  float:left;
+}
+#bild3 {
+  background: url(../images/9healthy1.JPG) no-repeat center center;
+  background-size: cover;
+  width: 700px;
+  height:300px;
+}
+#bild4 {
+  background: url(../images/11holiday2.JPG) no-repeat center center;
+  background-size: cover;
+  width:400px;
+  height:300px;
+  float:left;
+}
+#bild5 {
+  background: url(../images/araber.JPG) no-repeat center center;
+  background-size: cover;
+  width:300px;
+  height:300px;
+  float:left;
+}
+#bild6 {
+  background: url(../images/7maedchen2.JPG) no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height:300px;
+}
+#bild7 {
+  background: url(../images/aquarell.JPG) no-repeat center center;
+  background-size: cover;
+  width: 300px;
+  height:600px;
+}
+.reihe{
+  width:700px;
+  height:600px;
+  float:left;
+}
+.reiheklein{
+  width:700px;
+  height:300px;
+  float:left;
+}
+.quadrate{
+  height:600px;
+  width:300px;
+  float:left;
+}
