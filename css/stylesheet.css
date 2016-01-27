@@ -87,47 +87,54 @@ nav ul li {
   height:100%;
   width:700px;
   margin-left:200px;
-  background-color: pink;
 }
 
 #bild1 {
   background: url(../images/5party2.JPG) no-repeat center center;
   background-size: cover;
-  width:400px;
+  width:398px;
   height:600px;
+  display:inline-block;
+
 }
 #bild2 {
   background: url(../images/seemann2.JPG) no-repeat center center;
   background-size: cover;
-  width:300px;
-  height:300px;
+  width:298px;
+  height:298px;
   float:left;
+  margin-bottom:4px;
+
 }
 #bild3 {
   background: url(../images/9healthy1.JPG) no-repeat center center;
   background-size: cover;
   width: 700px;
   height:300px;
+  margin-bottom: 4px;
 }
 #bild4 {
   background: url(../images/11holiday2.JPG) no-repeat center center;
   background-size: cover;
-  width:400px;
+  width:398px;
   height:300px;
   float:left;
 }
 #bild5 {
   background: url(../images/araber.JPG) no-repeat center center;
   background-size: cover;
-  width:300px;
+  width:298px;
   height:300px;
   float:left;
+  margin-right:4px;
+
 }
 #bild6 {
   background: url(../images/7maedchen2.JPG) no-repeat center center;
   background-size: cover;
-  width: 300px;
-  height:300px;
+  width: 298px;
+  height:298px;
+  float:left;
 }
 #bild7 {
   background: url(../images/aquarell.JPG) no-repeat center center;
@@ -147,11 +154,12 @@ nav ul li {
   width:700px;
   height:300px;
   float:left;
+  margin-top:4px;
 }
 .quadrate{
   height:600px;
-  width:300px;
-  float:left;
+  width:298px;
+  float:right;
 }
 .sketchbild{
   width:350px;
